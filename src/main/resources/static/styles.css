@@ -1,0 +1,76 @@
+
+   
+h2{
+ font-family: fantasy; 
+ font-size: 24px;     
+ font-style: normal; 
+ font-weight: bold; 
+ color:rgba(21, 15, 21, 0.927);
+ text-align: center; 
+ text-decoration: red;
+}
+table{
+ font-family: verdana; 
+ color:white; 
+ font-size: 16px; 
+ font-style: normal;
+ font-weight: bold;
+ background: linear-gradient(to bottom, #086cd8b1 0%, #c40d99e4 100%);  
+ border-collapse: collapse; 
+ border: 4px solid #c0a7c2;
+ border-style: line;
+  
+}
+table.inner{
+ border: 10px
+}
+input[type=text], input[type=email], input[type=number]{
+ width: 50%;
+ padding: 6px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+}
+input[type=submit], input[type=reset]{
+ width: 15%;
+ padding: 8px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+}
+
+
+h2{
+    font-family: fantasy; 
+    font-size: 24px;     
+    font-style: normal; 
+    font-weight: bold; 
+    color:rgba(21, 15, 21, 0.927);
+    text-align: center; 
+    text-decoration: red;
+   }
+   table{
+    font-family: verdana; 
+    color:white; 
+    font-size: 16px; 
+    font-style: normal;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #086cd8b1 0%, #c40d99e4 100%);  
+    border-collapse: collapse; 
+    border: 4px solid #c0a7c2;
+    border-style: line;
+     
+   }
+   table.inner{
+    border: 10px
+   }
+   input[type=text], input[type=email], input[type=number]{
+    width: 50%;
+    padding: 6px 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+   }
+   input[type=submit], input[type=reset]{
+    width: 15%;
+    padding: 8px 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+   }

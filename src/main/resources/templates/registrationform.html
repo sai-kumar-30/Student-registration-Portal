@@ -1,0 +1,152 @@
+<html>
+<head>
+<title>Student Registration Form </title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<form action="#"
+                th:action="@{/register}"
+                th:object="${student}"
+                method="post"
+                name="registration">
+<h2>Student Registration Form </h3>
+<table align="center" cellpadding = "10">
+<!--------------------- First Name ------------------------------------------>
+<tr>
+<td>Name</td>
+<td><input type="text" name="Name"  placeholder="Name" />
+
+</td>
+</tr>
+
+
+<!-------------------------- Email ID ------------------------------------->
+<tr>
+<td>Email ID</td>
+<td><input type="email" name="EmailId" maxlength="100" placeholder="@gmail.com"/></td>
+</tr>
+<!-------------------------- Mobile Number ------------------------------------->
+<tr>
+<td>Mobile Number</td>
+<td>
+<input type="text" name="MobileNumber" maxlength="10" placeholder="7842xxxxxx"/>
+
+</td>
+</tr>
+<!---------------------- Gender ------------------------------------->
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="Gender" value="Male" />
+Male
+<input type="radio" name="Gender" value="Female" />
+Female
+</td>
+</tr>
+<!--------------------------Date Of Birth----------------------------------->
+<tr>
+<td>Date of Birth(DOB)</td>
+<td>
+    <input type="date" id="birthday" name="Dob">
+</td>
+</tr>
+<!------------------------- Address ---------------------------------->
+<tr>
+<td>Address<br /><br /><br /></td>
+<td><input name="Address" rows="50" cols="50" ></td>
+</tr>
+<!-------------------------- City ------------------------------------->
+<tr>
+<td>City</td>
+<td><input type="text" name="City" maxlength="50" placeholder="Bangalore"/>
+
+</td>
+</tr>
+<!----- -------------------- Pin Code-------------------------------------->
+<tr>
+<td>Pin Code</td>
+<td><input type="Number" name="PinCode" maxlength="6" placeholder="560068"/>
+
+</td>
+</tr>
+<!---------------------------- State ----------------------------------->
+<tr>
+<td>State</td>
+<td><input type="text" name="State" maxlength="50" placeholder="Andhra Pradesh"/>
+</td>
+</tr>
+<!------------------------------ Country --------------------------------->
+<tr>
+<td>Country</td>
+<td><input type="text" name="Country" placeholder="India" /></td>
+</tr>
+<!------------------------- Hobbies -------------------------------------->
+<tr>
+<td>Hobbies <br /><br /><br /></td>
+<td>
+<input type="checkbox" name="Hobbies" value="Drawing" />
+Drawing
+<input type="checkbox" name="Hobbies" value="Singing" />
+Singing
+<input type="checkbox" name="Hobbies" value="Dancing" />
+Dancing
+<input type="checkbox" name="Hobbies" value="Cooking" />
+Sketching
+<br />
+<input type="checkbox" name="Hobbies" value="Other">
+Others
+<input type="text" name="Hobbies" maxlength="50" placeholder="" />
+
+</td>
+</tr>
+<!-----------------------Qualification---------------------------------------->
+<tr>
+<td>Qualification <br /><br /><br /></td>
+<td>
+<br/>
+<input type="checkbox" name="Qualification" value="High School" />
+High School(10th)<br>
+<input type="checkbox" name="Qualification" value="Higher School" />
+Higher School(12th)<br/>
+<input type="checkbox" name="Qualification" value="Graduation" />
+Graduation(Bachelors)<br/>
+<input type="checkbox" name="Qualification" value="Post Graduation" />
+Post Graduation(Masters)<br/>
+<input type="checkbox" name="Qualification" value="Phd">
+Phd
+</td>
+</tr>
+<!---------------------------- Courses ----------------------------------->
+<tr>
+<td>Courses<br />Applied For</td>
+<td>
+<input type="radio" name="CourseAppliedFor" value="BCA">
+BCA(Bachelor of Computer Applications)<br>
+<input type="radio" name="CourseAppliedFor" value="B.Com">
+B.Com(Bachelor of Commerce)<br>
+<input type="radio" name="CourseAppliedFor" value="B.Sc">
+B.Sc(Bachelor of Science)<br>
+<input type="radio" name="CourseAppliedFor" value="B.A">
+BA(Bachelor of Arts)<br>
+<input type="radio" name="CourseAppliedFor" value="BCA">
+MCA(Master of Computer Applications)<br>
+<input type="radio" name="CourseAppliedFor" value="B.Com">
+M.Com(Master of Commerce)<br>
+<input type="radio" name="CourseAppliedFor" value="B.Sc">
+M.Sc(Master of Science)<br>
+<input type="radio" name="CourseAppliedFor" value="B.A">
+MA(Master of Arts)<br>
+</td>
+</tr>
+<!----------------------- Submit and Reset ------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+<script src="studuentregistrationform.js"></script>
+</body>
+</html>
